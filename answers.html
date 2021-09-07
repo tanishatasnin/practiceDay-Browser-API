@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+               <meta charset="UTF-8">
+               <meta http-equiv="X-UA-Compatible" content="IE=edge">
+               <meta name="viewport" content="width=device-width, initial-scale=1.0">
+               <title>Document</title>
+</head>
+<body>
+               <button onclick="add()">add number with 200</button>
+               <button onclick="goHref()">Show the href</button>
+               <button onclick="cookies()">cookies</button>
+    
+               
+               <script> 
+               // _____________________ ques 1 __________ 
+               setTimeout(function () {
+    console.log('the output will be return on 3.5 second');
+}, 3500);
+// ___ other way ___ 
+function doSomething() {
+    console.log('I am coding JavaScript');
+}
+ setTimeout(doSomething, 3500);
+//  ___________________ ques 1  end ________________ 
+
+
+                              // ___________ question 2_________ 
+                              const add=()=>{
+                                             const a = (200);
+const b = prompt("Enter second number");
+
+alert ( a +parseFloat(b) );
+ }     
+                              // _______________ end num of 2 _________ 
+               //               __________ ques num 3 __________ 
+
+               const goHref = () => {
+    const result = confirm('do u want to see the href?');
+    console.log(result);
+    if (result === true) {
+        alert(location.href);
+    }
+    else {
+        alert("thanks for visite");
+    }
+}
+
+               //           ________________ ques 3 end _________ 
+                              // ________________ ques 4 _______ 
+
+                           const cookies=()=>{
+                              alert("cookies are kind of biscute...that we can take for snacks.hahaha  sorry i was kidding.😂😂😂😂  some information between server and client.this informathion stores in a web browser.")
+                           } ;
+                          
+               
+
+ 
+               </script>
+</body>
+</html>
